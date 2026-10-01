@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>meshiorr</title>
+  <meta name="description" content="Personal page of meshiorr">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --fg: #1a1a1a;
+      --muted: #666;
+      --accent: #2563eb;
+      --card: #ffffff;
+      --border: #e5e5e5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --fg: #eee;
+        --muted: #999;
+        --accent: #60a5fa;
+        --card: #1a1a1a;
+        --border: #2a2a2a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 16px;
+    }
+    h1 { font-size: 2.25rem; margin: 0 0 4px; }
+    h2 { font-size: 1.1rem; margin: 40px 0 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .tagline { color: var(--muted); margin: 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .card h3 { margin: 0 0 4px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    ul.links { list-style: none; padding: 0; margin: 0; display: flex; gap: 16px; flex-wrap: wrap; }
+    footer { margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hi, I'm meshiorr 👋</h1>
+    <p class="tagline">Just getting started on GitHub.</p>
+
+    <h2>About</h2>
+    <p>This is my personal page. I'm exploring GitHub and building things as I learn.</p>
+
+    <h2>Projects</h2>
+    <div class="card">
+      <h3><a href="https://github.com/meshiorr/Me">Me</a></h3>
+      <p>This website — a simple personal page hosted on GitHub Pages.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <ul class="links">
+      <li><a href="https://github.com/meshiorr">GitHub</a></li>
+    </ul>
+
+    <footer>© 2026 meshiorr</footer>
+  </main>
+</body>
+</html>

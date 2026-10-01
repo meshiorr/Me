@@ -1,23 +1,27 @@
 # Me
 
-מאגר אישי של [@meshiorr](https://github.com/meshiorr).
+Personal page of [@meshiorr](https://github.com/meshiorr).
 
-## על המאגר
+## About
 
-כאן יופיעו פרויקטים, רעיונות וחומרים אישיים.
+A simple personal website built with a single HTML file and hosted on GitHub Pages.
 
-## מבנה
+## Structure
 
 ```
 .
-├── LICENSE     # רישיון Apache 2.0
-└── README.md   # הקובץ הזה
+├── index.html  # The website
+├── LICENSE     # Apache 2.0 license
+└── README.md   # This file
 ```
 
-## יצירת קשר
+## Viewing the site
 
-- GitHub: [@meshiorr](https://github.com/meshiorr)
+Once GitHub Pages is enabled (Settings → Pages → Deploy from branch `main`, folder `/root`),
+the site is available at https://meshiorr.github.io/Me/
 
-## רישיון
+To view it locally, just open `index.html` in a browser.
 
-המאגר מופץ תחת רישיון [Apache 2.0](LICENSE).
+## License
+
+Licensed under [Apache 2.0](LICENSE).
